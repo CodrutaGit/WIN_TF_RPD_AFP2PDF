@@ -8,7 +8,7 @@ Echo Destination dir is: C:\Program Files\InfoPrint\InfoPrint Transform Features
 
 set xcopy="c:\Windows\System32\xcopy.exe" /S/E/V/Q/F/H/I/N/Y
 
-copy /S/E/V/Q/F/H/I/N D:\Resources_AFP\font\*.* %destination% 
+copy D:\Resources_AFP\font\*.* %destination% 
 
 Echo Copying resources from %source% %destination%
 %xcopy% %source% %destination%
