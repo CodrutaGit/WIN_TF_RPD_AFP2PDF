@@ -7,6 +7,9 @@ set destination="%ProgramFiles%\InfoPrint\InfoPrint Transform Features\itm\xform
 Echo Destination dir is: C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\
 
 set xcopy="c:\Windows\System32\xcopy.exe" /S/E/V/Q/F/H/I/N/Y
+
+copy %source% %destination%
+
 Echo Copying resources from %source% %destination%
 %xcopy% %source% %destination%
 echo files will be copy press enter to proceed
