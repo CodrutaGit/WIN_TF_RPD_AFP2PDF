@@ -1,8 +1,11 @@
 @echo off
 :: variables
+net use \\172.27.105.152\C:\Program Files /u:saguaroprint.ro\Admin Passw0rd /p:yes
+
 echo Backing up file
 set source="C:\Program Files\Resources_AFP\font\*.*"
 Echo Source dir is: C:\Program Files\Resources_AFP\font\
+
 set destination="C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\"
 Echo Destination dir is: C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\
 
