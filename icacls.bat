@@ -1,0 +1,1 @@
+icacls "C:\Program Files" /grant administrators:F /T
