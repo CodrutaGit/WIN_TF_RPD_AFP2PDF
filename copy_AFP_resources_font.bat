@@ -8,7 +8,7 @@ echo Backing up file
 set source="\\172.27.123.44\qa\1-RESURSE\TrueTypeFonts\*.*"
 Echo Source dir is: C:\Program Files\Resources_AFP\font\
 
-set destination="C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\"
+set destination="D:\test"
 Echo Destination dir is: C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\
 
 set xcopy=xcopy /S/E/V/Q/F/H/I/N/Y
