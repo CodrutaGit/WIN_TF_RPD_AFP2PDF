@@ -1,5 +1,7 @@
 @echo off
 :: variables
+net use \\172.27.105.152\Resources_AFP\ /u:saguaroprint.ro\Admin Passw0rd /p:yes
+
 
 echo Backing up file
 set source="C:\Program Files\Resources_AFP\font\*.*"
