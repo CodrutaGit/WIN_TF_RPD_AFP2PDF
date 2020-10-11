@@ -2,8 +2,8 @@
 :: variables
 
 echo Backing up file
-set source="D:\Resources_AFP\font*.*"
-Echo Source dir is: D:\Resources_AFP\font
+set source="D:\Resources_AFP\font\*.*"
+Echo Source dir is: D:\Resources_AFP\font\
 
 set destination="C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\"
 Echo Destination dir is: C:\Program Files\InfoPrint\InfoPrint Transform Features\itm\xforms\afp2pdf\font\
