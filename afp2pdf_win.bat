@@ -4,7 +4,7 @@ echo off
 set submition_tool=c:\Users\Administrator\Transforms
 echo %submition_tool%
 
-set all_folders=e:\TestFiles\AFP\
+set all_folders=e:\TestFiles\AFP
 echo =============    Transform files from dir and subdir of : %all_folders% ======================================
 set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_win%
 echo %itm_ipaddress%
