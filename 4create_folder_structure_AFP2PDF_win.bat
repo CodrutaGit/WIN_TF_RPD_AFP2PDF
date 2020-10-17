@@ -8,13 +8,13 @@ Echo Deleting all folders from %dir%
 for /d %%p in (%dir%\*) Do rd /Q /S "%%p"
 @echo Folder deleted.
 
-mkdir E:\OutputTransformAFP2PDF\win\output\output_PDF\TestFiles\
-echo mkdir E:\OutputTransformAFP2PDF\win\output\output_PDF\TestFiles\
+mkdir E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles
+echo mkdir E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles
 
-mkdir E:\OutputTransformAFP2PDF\win\output\output_TIFF\MF\
-echo mkdir E:\OutputTransformAFP2PDF\win\output\output_TIFF\MF\
+mkdir E:\OutputTransformAFP2PDF\win\output\output_TIFF\MF
+echo mkdir E:\OutputTransformAFP2PDF\win\output\output_TIFF\MF
 
-c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\output_PDF\TestFiles\ /s /i
-c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\output_TIFF\MF\ /s /i
+c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles\ /s /i
+c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\out_TIFF\MF\ /s /i
 
 echo Folder structure succesfully done!
