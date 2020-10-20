@@ -11,8 +11,8 @@ for /d %%p in (%dir%\*) Do rd /Q /S "%%p"
 mkdir E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles
 echo mkdir E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles
 
-mkdir E:\OutputTransformAFP2PDF\win\output\out_TIFF\MF
-echo mkdir E:\OutputTransformAFP2PDF\win\output\out_TIFF\MF
+mkdir E:\OutputTransformAFP2PDF\win\output\out_TIFF\MasterFiles\
+echo mkdir E:\OutputTransformAFP2PDF\win\output\out_TIFF\MasterFiles\
 
 c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\out_PDF\TestFiles\ /s /i
 c:\Windows\System32\xcopy.exe /T /e e:\TestFiles_folder_structure\TestFiles\* E:\OutputTransformAFP2PDF\win\output\out_TIFF\MasterFiles\ /s /i
