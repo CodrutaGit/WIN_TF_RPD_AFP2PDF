@@ -6,6 +6,10 @@ time /T >> regr.log
 set TTDIR=c:\TESTTOOLS\
 set MASTERDIR=e:\MasterFiles\
 set CMPDIR=e:\OutputTransformAFP2PDF\win\output\out_TIFF\
+set LogDIR=C:\Users\Administrator\Transforms\TestAFP2PDF\Log\log_win
+
+echo clean log folder
+del /s %LogDIR%\*.log
 
 echo running tiffcompare >> regr.log
 set CURDIR=%CD%
